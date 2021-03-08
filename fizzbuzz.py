@@ -8,3 +8,5 @@ def fb(n):
     else:
         return n
 
+for i in range(100):
+    print(fb(i+1))
