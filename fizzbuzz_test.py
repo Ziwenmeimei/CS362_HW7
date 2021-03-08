@@ -9,7 +9,7 @@ class TestCase(unittest.TestCase):
         self.assertEqual(fizzbuzz.fb(5),"Buzz")
 
     def test3(self):
-        self.asserEqual(fizzbuzz.fb(15),"FizzBuzz")
+        self.assertEqual(fizzbuzz.fb(15),"FizzBuzz")
 
 
 if __name__ == '__main__':
